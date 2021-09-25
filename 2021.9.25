@@ -1,0 +1,34 @@
+/*
+2021.9.25
+*/
+//it is a nonation in cs200 zybook section3.5 challenge
+import java.util.Scanner;
+
+public class MthdStubsStatistics {
+
+   /* Your solution goes here  */
+   public static int getUserNum(){
+   //the follows need to be remembered(the use of getUserNum)
+      System.out.println("FIXME: Finish getUserNum()");
+      return -1;
+   }
+   public static int computeAvg(int userNum1, int userNum2){
+      int avgResult;
+      System.out.println("FIXME: Finish computeAvg()");
+      avgResult = (userNum1 + userNum2)/2;
+      
+      return avgResult;
+   }
+   public static void main(String [] args) {
+      int userNum1;
+      int userNum2;
+      int avgResult;
+
+      userNum1 = getUserNum();
+      userNum2 = getUserNum();
+
+      avgResult = computeAvg(userNum1, userNum2);
+
+      System.out.println("Avg: " + avgResult);
+   }
+}
